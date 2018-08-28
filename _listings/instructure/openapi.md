@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,18 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /users/self/upcoming_events:
+    get:
+      summary: List upcoming assignments, calendar events
+      description: List upcoming assignments, calendar events.
+      operationId: list-upcoming-assignments-calendar-events
+      x-api-path-slug: usersselfupcoming-events-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Self
+      - Upcoming
+      - Events

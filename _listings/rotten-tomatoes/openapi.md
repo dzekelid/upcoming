@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Rotten Tomatoes
 x-complete: 1
@@ -67,4 +66,3 @@ paths:
       - Lists
       - Movies
       - Upcoming
----

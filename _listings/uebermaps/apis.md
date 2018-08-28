@@ -10,11 +10,41 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Upcoming
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/uebermaps/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: uebermaps - Unsubscribe from map
+  x-api-slug: mapsidsubscriptions-delete
+  description: Unsubscribe from map.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/uebermaps/mapsidsubscriptions-delete-openapi.md
+- name: uebermaps - Unsubscribe from map
+  x-api-slug: mapsidsubscriptions-delete
+  description: Unsubscribe from map.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/uebermaps/mapsidsubscriptions-delete-openapi.md
+- name: uebermaps - Unsubscribe from map
+  x-api-slug: mapsidsubscriptions-delete
+  description: Unsubscribe from map.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png
+  humanURL: http://uebermaps.com
+  baseURL: https://uebermaps.com//api/v2
+  tags: General Data, Maps
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/uebermaps/mapsidsubscriptions-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://uc.berkeley.api.gallery.streamdata.io

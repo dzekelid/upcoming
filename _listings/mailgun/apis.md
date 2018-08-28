@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_g
 x-kinRank: "8"
 x-alexaRank: "24750"
 tags: Upcoming
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/apis.md
 specificationVersion: "0.14"
 apis:
@@ -97,6 +97,47 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/unsubscribesaddress-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/unsubscribesaddress-get-openapi.md
+- name: Mailgun API - Unsubscribe
+  x-api-slug: unsubscribesaddress-get
+  description: Retreives a single unsubscribe record. Can be used to check if a given
+    address is present in the list of unsubscribed users.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/unsubscribesaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/unsubscribesaddress-get-openapi.md
+- name: Mailgun API - Delete Unsubscribe
+  x-api-slug: unsubscribesaddress-delete
+  description: Removes an address from the unsubscribes table. Address defines which
+    events to delete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/unsubscribesaddress-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/unsubscribesaddress-delete-openapi.md
+- name: Mailgun API - Add to unsubscribe list.
+  x-api-slug: unsubscribes-post
+  description: Adds address to unsubscribed table.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/612-mail_gun.jpg
+  humanURL: http://mailgun.net
+  baseURL: https://api.mailgun.net/v2/
+  tags: Stack Network, SaaS, Technology, API Provider, API Provider, Emails, Messages,
+    Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/unsubscribes-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/mailgun/unsubscribes-post-openapi.md
 x-common:
 - type: x--net-library
   url: http://documentation.mailgun.com/libraries.html#c

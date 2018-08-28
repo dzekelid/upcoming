@@ -7,11 +7,143 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotome
 x-kinRank: "7"
 x-alexaRank: "7422"
 tags: Upcoming
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Go To Meeting - Get upcoming meetings by group
+  x-api-slug: groupsgroupkeyupcomingmeetings-get
+  description: Get upcoming meetings for a specified group. This API call is only
+    available to users with the admin role. This API call can be used only for groups
+    with maximum 50 organizers.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/groupsgroupkeyupcomingmeetings-get-openapi.md
+- name: Go To Meeting - Get upcoming meetings by organizer
+  x-api-slug: organizersorganizerkeyupcomingmeetings-get
+  description: Get upcoming meetings for a specified organizer. This API call is only
+    available to users with the admin role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/organizersorganizerkeyupcomingmeetings-get-openapi.md
+- name: Go To Meeting - Get upcoming meetings
+  x-api-slug: upcomingmeetings-get
+  description: Gets upcoming meetings for the current authenticated organizer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/upcomingmeetings-get-openapi.md
+- name: Go To Meeting - Get upcoming meetings by group
+  x-api-slug: groupsgroupkeyupcomingmeetings-get
+  description: Get upcoming meetings for a specified group. This API call is only
+    available to users with the admin role. This API call can be used only for groups
+    with maximum 50 organizers.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/groupsgroupkeyupcomingmeetings-get-openapi.md
+- name: Go To Meeting - Get upcoming meetings by organizer
+  x-api-slug: organizersorganizerkeyupcomingmeetings-get
+  description: Get upcoming meetings for a specified organizer. This API call is only
+    available to users with the admin role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/organizersorganizerkeyupcomingmeetings-get-openapi.md
+- name: Go To Meeting - Get upcoming meetings
+  x-api-slug: upcomingmeetings-get
+  description: Gets upcoming meetings for the current authenticated organizer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/upcomingmeetings-get-openapi.md
+- name: Go To Meeting - Get upcoming meetings
+  x-api-slug: upcomingmeetings-get
+  description: Gets upcoming meetings for the current authenticated organizer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/upcomingmeetings-get-openapi.md
+- name: Go To Meeting - Get upcoming meetings by organizer
+  x-api-slug: organizersorganizerkeyupcomingmeetings-get
+  description: Get upcoming meetings for a specified organizer. This API call is only
+    available to users with the admin role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/organizersorganizerkeyupcomingmeetings-get-openapi.md
+- name: Go To Meeting - Get upcoming meetings by group
+  x-api-slug: groupsgroupkeyupcomingmeetings-get
+  description: Get upcoming meetings for a specified group. This API call is only
+    available to users with the admin role. This API call can be used only for groups
+    with maximum 50 organizers.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2M/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/groupsgroupkeyupcomingmeetings-get-openapi.md
+- name: Go To Webinar - Get upcoming webinars
+  x-api-slug: organizersorganizerkeyupcomingwebinars-get
+  description: Returns webinars scheduled for the future for the specified organizer
+    and webinars of other organizers where the specified organizer is a co-organizer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2W/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/organizersorganizerkeyupcomingwebinars-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/gotomeeting/organizersorganizerkeyupcomingwebinars-get-openapi.md
 - name: Go To Webinar - Get upcoming webinars
   x-api-slug: organizersorganizerkeyupcomingwebinars-get
   description: Returns webinars scheduled for the future for the specified organizer

@@ -7,11 +7,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Upcoming
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Unsubscribe/Subscribe All contact items for a person
+  x-api-slug: apipeopleunsubscribeid-post
+  description: Unsubscribe/subscribe all contact items for a person.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/dezrez/apipeopleunsubscribeid-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Unsubscribe/Subscribe All contact items for a person
+  x-api-slug: apipeopleunsubscribeid-post
+  description: Unsubscribe/subscribe all contact items for a person.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/dezrez/apipeopleunsubscribeid-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Unsubscribe/Subscribe All contact items for a person
+  x-api-slug: apipeopleunsubscribeid-post
+  description: Unsubscribe/subscribe all contact items for a person.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/dezrez/apipeopleunsubscribeid-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: GoToMeeting
 x-complete: 0
 info:
-  title: Go To Webinar Get upcoming webinars
-  description: Returns webinars scheduled for the future for the specified organizer
-    and webinars of other organizers where the specified organizer is a co-organizer.
+  title: Go To Meeting Get upcoming meetings by organizer
+  description: Get upcoming meetings for a specified organizer. This API call is only
+    available to users with the admin role.
   termsOfService: https://developer.citrixonline.com/terms-use
   contact:
     name: Developer Support
@@ -13,7 +13,7 @@ info:
     email: developer-support@citrixonline.com
   version: 1.0.0
 host: api.citrixonline.com
-basePath: /G2W/rest
+basePath: /G2M/rest
 schemes:
 - http
 produces:
@@ -70,23 +70,6 @@ paths:
           description: OK
       tags:
       - UpcomingMeetings
-  /organizers/{organizerKey}/upcomingWebinars:
-    get:
-      summary: Get upcoming webinars
-      description: Returns webinars scheduled for the future for the specified organizer
-        and webinars of other organizers where the specified organizer is a co-organizer.
-      operationId: getUpcomingWebinars
-      x-api-path-slug: organizersorganizerkeyupcomingwebinars-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Organizers
-      - OrganizerKey
-      - UpcomingWebinars
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

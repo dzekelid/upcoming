@@ -9,11 +9,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-
 x-kinRank: "7"
 x-alexaRank: "7238418"
 tags: Upcoming
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/docsmore/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Docsmore API 2.1 - Unsubscribe Webhook
+  x-api-slug: apiwebhookunsubscribeid-delete
+  description: It is important that you call this event to unsubscribe otherwise it
+    will automatically be removed in 10 minutes. If not unsubscribed manually, it
+    can also lead to the problem of duplication and create further issues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg
+  humanURL: http://api.docsmore.com
+  baseURL: https://api.docsmore.com//
+  tags: SaaS, Technology, Documents, Forms
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/docsmore/apiwebhookunsubscribeid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/upcoming/master/_listings/docsmore/apiwebhookunsubscribeid-delete-openapi.md
 - name: Docsmore API 2.1 - Unsubscribe Webhook
   x-api-slug: apiwebhookunsubscribeid-delete
   description: It is important that you call this event to unsubscribe otherwise it
